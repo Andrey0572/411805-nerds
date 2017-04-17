@@ -2,7 +2,7 @@
 
 * Студент: [Огнев Андрей](https://up.htmlacademy.ru/htmlcss/17/user/411805).
 * Наставник: [Михаил Поданев] (https://up.htmlacademy.ru/htmlcss/17/user/id63947). 
-
+*
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
