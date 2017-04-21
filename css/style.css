@@ -30,28 +30,12 @@ h3
   font-weight: bold;
   font-color: #000000;
 }
-h4
+dd
 {
   font-family: Roboto;
   font-style: normal;
-  font-size: 36px;
-  font-weight: bold;
-  font-color: #000000;
-}
-h5
-{
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: bold;
-  font-color: #000000;
-}
-b
-{
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
   font-color: #000000;
 }
 dt
@@ -62,11 +46,47 @@ dt
   font-weight: bold;
   font-color: #000000;
 }
- .footer-contacts p
+ .footer-contacts,
+ .info-content,
+ .sidebar p
 {
   font-family: Roboto;
   font-style: normal;
   font-size: 18px;
+  font-weight: bold;
+  font-color: #000000;
+}
+.main-navigation,
+.user-block,
+.container a
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  font-color: #000000;
+}
+.container b
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 55px;
+  font-weight: bold;
+  font-color: #000000;
+}
+.features-item b
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  font-color: #000000;
+}
+.footer-social b
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 36px;
   font-weight: bold;
   font-color: #000000;
 }
