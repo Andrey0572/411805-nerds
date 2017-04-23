@@ -191,7 +191,7 @@ div .menu
   margin-top: 50px;
   margin-bottom: 50px;
 }
-h1
+.container-name h1
 {
   font-family: Roboto;
   font-style: normal;
@@ -199,7 +199,7 @@ h1
   font-weight: bold;
   font-color: #000000;
 }
-h2
+.company-content-left h2
 {
   font-family: Roboto;
   font-style: normal;
@@ -207,7 +207,8 @@ h2
   font-weight: bold;
   font-color: #000000;
 }
-h3
+.company-content-left,
+.info-content-right h3
 {
   font-family: Roboto;
   font-style: normal;
@@ -215,7 +216,7 @@ h3
   font-weight: bold;
   font-color: #000000;
 }
-dd
+.info-content-right dd
 {
   font-family: Roboto;
   font-style: normal;
@@ -223,7 +224,7 @@ dd
   font-weight: normal;
   font-color: #000000;
 }
-dt
+.info-content-right dt
 {
   font-family: Roboto;
   font-style: normal;
