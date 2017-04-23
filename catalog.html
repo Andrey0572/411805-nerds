@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="index-logo">
           <img src="img/nerds-logo.png" width="100" height="50" alt="Nerds">
         </div>
@@ -32,10 +32,13 @@
           </div>
         </div>
       </header>
-    <main class="container">
+    <main class="container clearfix">
+      <div class="container-name">
       <h1>Магазин готовых шаблонов</h1>
+    </div>
         <div class="sidebar">
           <form  class="item-sidebar"action="#" method="post">
+             <section class="value">
             <p class="sidebar">СТОИМОСТЬ:</p><br>
               <input type="range" min="0" max="20000" step="1" value="15000"><br>
                 <p class="sidebar">СЕТКА </p><br>
@@ -53,7 +56,9 @@
                    <input type="radio" name="product" value="Резиновая" >
                      Резиновая
                 </label>
+              </section>
               <br>
+              <section class="features">
                 <p class="sidebar">ОСОБЕННОСТИ:</p><br>
                   <input type="checkbox" id="check1" checked><label for="check1">Слайдер</label><br>
                     <input type="checkbox" id="check2"><label for="check2">Блок преимуществ</label><br>
@@ -62,41 +67,49 @@
                           <input type="checkbox" id="check5"><label for="check5">Корзина</label><br>
                             <input type="submit" value="ПОКАЗАТЬ">
                      </form>
+                   </section>
                   </div>
-            <div class="info-content" right>
-              <p class="info-content"> СОРТИРОВАТЬ:</p>
+            <div class="infa-content-right clearfix">
+              <div class="infa-content">
+              <p class="infa-content"> СОРТИРОВАТЬ:</p>
+            </div>
+                 <div class="form">
                 <select name="text">
                   <option value="по цене">по цене</option>
                     <option value="по типу">по типу</option>
                       <option value="по названию">по названию</option>
                  </select>
-              <article>
+               </div>
+              <article class="sedona">
                 <img src="img/img-sedona.png" width="360" height="576" alt="sedona">
                   </article>
-                  <article>
+                  <article class="pink">
                     <img src="img/img-pink.png" width="360" height="576" alt="pink">
                   </article>
-                    <article>
+                    <article class="barbershop">
                       <img src="img/img-barbershop.png" width="360" height="576" alt="barbershop">
                   </article>
-                    <article>
+                    <article class="mishka">
                       <img src="img/img-mishka.png" width="360" height="576" alt="mishka">
                   </article>
-                    <article>
+                    <article class="aplus">
                       <img src="img/img-aplus.png" width="360" height="576" alt="aplus">
                   </article>
-                    <article>
+                    <article class="kvast">
                       <img src="img/img-kvast.png" width="360" height="576" alt="kvast">
                   </article>
-               <nav class="transitions-menu">
-                 1
+               <nav class="transitions-menu clearfix">
+                 <div class="menu">
+                 <a> 1 </a>
                   <a href="#">2</a>
                     <a href="#">3</a>
                       <a href="#">Следующая</a>
+                    </div>
             </nav>
           </div>
+        </main>
           <footer class="main-footer">
-            <div class="container">
+            <div class="container clearfix">
               <section class="footer-contacts">
                 <p class="footer-contacts"> NERDS DESING STUDIO</p><br>
                 191186,Санкт-Петербург,<br> Б. Конюшенная, д. 19/8<br>
@@ -107,10 +120,12 @@
                 <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                   <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a><br>
+                  </section>
+                  <section class="footer-info">
                       <b> Давайте дружить,это выгодно!</b>
                         <p> Скидка 10% для  друзей из социальных сетей.</p>
                     </section>
                      </div>
                 </footer>
-   </body>
+                </body>
 </html>

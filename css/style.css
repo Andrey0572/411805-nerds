@@ -5,6 +5,191 @@ body
   font-size: 16px;
   font-weight: normal;
   font-color: #000000;
+  min-width: 1210px;
+  min-height: ;
+  margin: 0;
+  padding: 0;
+  background: #ffffff url("white back-fon.png") no-repeat 50% 3px;
+  background-size: 1122px auto;
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-header
+{
+  margin: bottom: 60px;
+}
+.container
+{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.index-logo
+{
+  float: left;
+  width: 170px;
+  min-height: 70px;
+}
+.main-navigation {
+  float: left;
+  width: 475px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 134px;
+  min-height: 70px;
+}
+.features
+{
+  margin-bottom: 80px;
+}
+.features-item
+{
+  float: left;
+  width: 300px;
+  margin-right: 60px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.company
+{
+  padding: 80px 60px;
+}
+.company-content-left
+{
+  float: left;
+  width: 620px;
+}
+.info-content-right
+{
+  float: right;
+  width: 400px;
+}
+.main-footer
+{
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  }
+  .footer-contacts
+  {
+  float: left;
+  width: 320px;
+  background: #ffffff url("white back.png") no-repeat 50% 3px;
+   margin-right: 60px;
+   }
+.footer-social
+{
+  float: left;
+  width: 320px;
+  }
+.footer-info
+{
+  float: right;
+  width: 570px;
+}
+.sidebar
+{
+  float: left;
+  width: 280px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.value
+{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.features
+{
+  float: left;
+  padding-bottom: 50px;
+}
+.sidebar p
+{
+  float:left;
+  padding-left: 0;
+  padding-right: 0px;
+}
+.infa-content-right
+{
+  float: right;
+  width: 770px;
+  min-height: ;
+  margin-right: 20px;
+}
+.infa-content p
+{
+  float:left;
+  width: 150px;
+  padding-right: 0;
+  margin-right: 0;
+}
+.container-name
+{
+  padding-left: 250px;
+  padding-right: auto;
+}
+div.form
+{
+  float: right;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.sedona
+{
+  float: left;
+  width: 360px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+.pink
+{
+  float: right;
+  width: 360px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+.barbershop
+{
+  float: left;
+  width: 360px;
+  margin-top: 86px;
+}
+.mishka
+{
+  float: right;
+  width: 360px;
+  margin-bottom: 86px;
+}
+.aplus
+{
+  float: left;
+  width: 360px;
+  margin-top: 86px;
+}
+.kvast
+{
+  float: right;
+  width: 360px;
+  margin-bottom: 86px;
+}
+div .menu
+{
+  float: right;
+  padding-right: 280px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 h1
 {
@@ -48,6 +233,7 @@ dt
 }
  .footer-contacts,
  .info-content,
+ .infa-content,
  .sidebar p
 {
   font-family: Roboto;
@@ -82,7 +268,7 @@ dt
   font-weight: bold;
   font-color: #000000;
 }
-.footer-social b
+.footer-info b
 {
   font-family: Roboto;
   font-style: normal;
