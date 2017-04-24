@@ -5,7 +5,7 @@ body
   font-size: 16px;
   font-weight: normal;
   font-color: #000000;
-  min-width: 1210px;
+  min-width: 1207px;
   min-height: ;
   margin: 0;
   padding: 0;
@@ -31,29 +31,40 @@ body
 .index-logo
 {
   float: left;
-  width: 170px;
-  min-height: 70px;
+  width: 200px;
+  min-height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 42px;
+  margin-bottom: 25px;
 }
 .main-navigation {
   float: left;
-  width: 475px;
-  min-height: 70px;
+  width: 568px;
+  min-height: 60px;
 }
-
+.main-navigation li
+{
+  float:left;
+  padding: 0 30px;
+  margin-top: 50px;
+}
 .user-block {
   float: right;
-  width: 134px;
-  min-height: 70px;
+  width: 144px;
+  min-height: 60px;
+  margin-top: 65px;
 }
 .features
 {
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 .features-item
 {
   float: left;
   width: 300px;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 .features-item:last-child {
   margin-right: 0;
@@ -66,24 +77,57 @@ body
 {
   float: left;
   width: 620px;
+  margin-bottom: 50px;
 }
 .info-content-right
 {
   float: right;
   width: 400px;
 }
+.content-indicators
+{
+  float:left;
+  margin-bottom: 50px;
+  margin-left: 1px;
+}
+.content-indicators:nth-child(3) {
+  margin-right: 0;
+}
+.partners
+{
+  float:left;
+  width: auto;
+}
+.logo-partner
+{
+  float:left;
+  margin-bottom: 50px;
+  margin-left: 1px;
+  padding-right:20px;
+}
+.logo-partner:nth-child(4) {
+  margin-right: 0;
+}
 .main-footer
 {
-  margin-top: 40px;
-  padding-top: 60px;
   padding-bottom: 40px;
+  border-top: 1px solid transparent;
   }
-  .footer-contacts
+  .footer-map
   {
-  float: left;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    height: 300px;
+    border-top: 1px solid transparent;
+    background-image: url(img/mapp.jpg);
+}
+.footer-contacts
+  {
   width: 320px;
   background: #ffffff url("white back.png") no-repeat 50% 3px;
-   margin-right: 60px;
+  margin-top: 38px;
+  padding-top: 20px;
+  margin-bottom: 20px;
    }
 .footer-social
 {
@@ -98,14 +142,14 @@ body
 .sidebar
 {
   float: left;
-  width: 280px;
+  width: 200px;
   margin-right: 0px;
   margin-left: 0px;
 }
 .value
 {
   float: left;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 .features
@@ -126,9 +170,20 @@ body
   min-height: ;
   margin-right: 20px;
 }
-.infa-content p
+.infa-form1
 {
   float:left;
+  margin-bottom: 30px;
+}
+.infa-form2
+{
+  float:left;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.infa-content p
+{
   width: 150px;
   padding-right: 0;
   margin-right: 0;
@@ -148,51 +203,67 @@ div.form
 }
 .product
 {
-
+float: right;
+width: 820px;
 }
-.sedona
+.product-item {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.product-item:nth-child(2) {
+  margin-right: 0;
+}
+/*.sedona
 {
-  
+
   float: left;
   width: 360px;
   margin-top: 0;
-}
-.pink
+}*/
+/*.pink
 {
   float: right;
   width: 360px;
   margin-top: 86px;
-}
-.barbershop
+}*/
+/*.barbershop
 {
   float: right;
   width: 360px;
   margin-top: 86px;
-}
-.mishka
+}*/
+/*.mishka
 {
   float: right;
   width: 360px;
   margin-bottom: 86px;
-}
-.aplus
+}*/
+/*.aplus
 {
   float: left;
   width: 360px;
   margin-top: 86px;
-}
-.kvast
+}*/
+/*.kvast
 {
   float: right;
   width: 360px;
   margin-bottom: 86px;
+}*/
+.transitions-menu
+{
+ float: right;
+ width: 820px;
+ height: 10px;
 }
 div .menu
 {
   float: right;
-  padding-right: 280px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-right: 680px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .container-name h1
 {
