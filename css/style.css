@@ -146,23 +146,26 @@ div.form
   margin-bottom: 15px;
   margin-top: 15px;
 }
+.product
+{
+
+}
 .sedona
 {
+  
   float: left;
   width: 360px;
-  margin-bottom: 0px;
-  padding-top: 50px;
+  margin-top: 0;
 }
 .pink
 {
   float: right;
   width: 360px;
-  margin-bottom: 0px;
-  padding-top: 50px;
+  margin-top: 86px;
 }
 .barbershop
 {
-  float: left;
+  float: right;
   width: 360px;
   margin-top: 86px;
 }
