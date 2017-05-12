@@ -58,31 +58,32 @@
          </div>
        </div>
           <br>
+              <section class="producti-setca">
               <p class="sidebar">СЕТКА </p><br>
-               <label>
-               <input type="radio" name="product" value="Адаптивная" checked>
-               Адаптивная
-               </label>
+               <div>
+               <input type="radio" name="producti" value="Адаптивная" checked>
+               <label for="producti">Адаптивная</label>
+             </div>
                 <br>
-                <label>
-                <input type="radio" name="product" value="фиксированная">
-                Фиксированная
-                </label>
+                <div>
+                <input type="radio" name="producti" value="фиксированная">
+                <label for="producti">Фиксированная</label>
+              </div>
                 <br>
-                <label>
-                <input type="radio" name="product" value="Резиновая" >
-                Резиновая
-                 </label>
+                <div>
+                <input type="radio" name="producti" value="Резиновая" >
+                <label for="producti">Резиновая</label>
+              </div>
               </section>
               <br>
-              <section class="features">
+              <section class="featuresi">
                 <p class="sidebar">ОСОБЕННОСТИ:</p><br>
                 <input type="checkbox" id="check1" checked><label for="check1">Слайдер</label><br>
                 <input type="checkbox" id="check2"><label for="check2">Блок преимуществ</label><br>
                 <input type="checkbox" id="check3" checked><label for="check3">Новости</label><br>
                 <input type="checkbox" id="check4"><label for="check4">Галерея</label><br>
                 <input type="checkbox" id="check5"><label for="check5">Корзина</label><br>
-                <input type="submit" value="ПОКАЗАТЬ">
+                <a class="submit" href="#">ПОКАЗАТЬ</a>
                 </form>
                 </section>
            </div>
@@ -92,95 +93,121 @@
                 <p class="infa-content"> СОРТИРОВАТЬ:</p>
              </div>
               <div class="infa-form2">
-                <select name="text">
-                <option value="по цене">по цене</option>
-                <option value="по типу">по типу</option>
-                <option value="по названию">по названию</option>
-                </select>
-               </div>
+                <a class="infa-form2-activ" href="#">по цене</a>
+                <a class="infa-form2" href="#">по типу</a>
+                <a class="infa-form2" href="#">по названию</a>
+                </div>
              </div>
                <div class="product clearfix">
                 <article class="product-item-sedona">
                 <a href="#"><img src="img/img-sedona.png" width="360" height="576" alt="sedona"></a>
+                <div class="product-sedona">
+                  <header>SEDONA</header>
+                  <p>Информационный сайт<br>для туристов</p>
+                  <a class="btn5" href="#">9900 РУБ.</a>
+                </div>
                 </article>
-               <div class="product-sedona">
-                 <header>SEDONA</header>
-                 <p>Информационный сайт<br>для туристов</p>
-                 <a class="btn5" href="#">9900 РУБ.</a>
-               </div>
                 <article class="product-item-pink">
-                <a href="#"><img src="img/img-pink.png" width="360" height="576" alt="pink"></a>
-                </article>
+                <a href="#"> <div class="border" width="100%" height="40"></div><img src="img/img-pink.png" width="360" height="576" alt="pink"></a>
                 <div class="product-pink">
                   <header>PINK APP</header>
                   <p>Продуктивный лейдинг<br>приложение для iOS и Android</p>
                   <a class="btn5" href="#">9900 РУБ.</a>
                 </div>
+                </article>
                 <article class="product-item-barbershop">
                 <a href="#"><img src="img/img-barbershop.png" width="360" height="576" alt="barbershop"></a>
-                </article>
                 <div class="product-barbershop">
                   <header>BARBERSHOP</header>
                   <p>Сайт салоны красоты.<br>Для мужчин,да.</p>
                   <a class="btn5" href="#">9900 РУБ.</a>
                 </div>
+                </article>
                 <article class="product-item-mishka">
                 <a href="#"><img src="img/img-mishka.png" width="360" height="576" alt="mishka"></a>
-                </article>
                 <div class="product-mishka">
                   <header>MISHKA</header>
                   <p>Интернат-магазин<br>вязаных игрушек</p>
                   <a class="btn5" href="#">9900 РУБ.</a>
                 </div>
+                </article>
                 <article class="product-item-aplus">
                 <a href="#"><img src="img/img-aplus.png" width="360" height="576" alt="aplus"></a>
-                </article>
                 <div class="product-aplus">
                   <header>A PLUS</header>
                   <p>Лейдинг курсов повышения<br>квалификации</p>
                   <a class="btn5" href="#">9900 РУБ.</a>
                 </div>
+                </article>
                 <article class="product-item-kvast">
                 <a href="#"><img src="img/img-kvast.png" width="360" height="576" alt="kvast"></a>
-                </article>
                 <div class="product-kvast">
                   <header>A КВАСТ</header>
                   <p>Промо-сайт производителя<br>крафтового кваса</p>
                   <a class="btn5" href="#">9900 РУБ.</a>
                 </div>
+                </article>
                 </div>
                <nav class="transitions-menu clearfix">
                  <div class="menu">
-                 <a> 1 </a>
+                 <ul>
+                <li class="span">
+                 <span> 1 </span>
+               </li>
+               <li>
                  <a href="#">2</a>
+               </li>
+               <li>
                  <a href="#">3</a>
-                 <a href="#">Следующая</a>
+              </li>
+              <li class="nov">
+                 <a href="#">СЛЕДУЮЩАЯ</a>
+               </li>
+             </ul>
                  </div>
                </nav>
               </div>
          </main>
-          <footer class="main-footer">
-            <div class="footer-map">
-             <div class="container">
-              <section class="footer-contacts">
-                <p class="footer-contacts"> NERDS DESING STUDIO</p><br>
-                191186,Санкт-Петербург,<br> Б. Конюшенная, д. 19/8<br>
-                Телефон: +7 (812) 275-75-75<br>
-                  <a class="btn4" href="#">НАПИШИТЕ НАМ</a>
-               </section>
+         <footer class="main-footer">
+           <div class="footer-map">
+           <div class="container clearfix">
+             <section class="footer-contacts">
+              <b> NERDS DESING STUDIO</b><br>
+               <p>191186,Санкт-Петербург,<br> ул.Б.Конюшенная,д.19/8<br>
+               тел.+7 (812) 275-75-75<br></p>
+               <a class="btn4" href="#">НАПИШИТЕ НАМ</a>
+             </section>
+           </div>
+           </div>
+         <div class="container clearfix">
+           <section class="footer-social">
+             <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+             <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+             <a class="social-btn social-btn-inst" href="#">Инстаграм</a><br>
+           </section>
+           <section class="footer-info">
+             <b> Давайте дружить,это выгодно!</b>
+               <p> Скидка 10% для  друзей из социальных сетей.</p>
+            </section>
+         </div>
+         </footer>
+         <div class="modal-content">
+               <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+               <h2 class="modal-content-title">Напишите нам</h2>
+               <form class="write-form" action="#" method="post">
+                 <div class="name">
+                 <p class='modal-content-title'>Ваше имя:</p>
+                 <input class="name" type="text" name="name" placeholder="Представьтесь,пожалуйста">
                </div>
-              </div>
-             <div class="container clearfix">
-              <section class="footer-social">
-              <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-              <a class="social-btn social-btn-inst" href="#">Инстаграм</a><br>
-               </section>
-              <section class="footer-info">
-                <b> Давайте дружить,это выгодно!</b>
-                  <p> Скидка 10% для  друзей из социальных сетей.</p>
-               </section>
-              </div>
-            </footer>
-          </body>
-        </html>
+                 <div class="email">
+                 <p class='modal-content-title'>Ваше e-mail:</p>
+                 <input class="email" type="text"  name="email" placeholder="Для отправки ответа">
+               </div>
+                 <div class="comment">
+                 <p class='modal-content-title'>Текст письма:</p>
+                 <textarea class="comment" type="comment" name="comment" placeholder="В свободной форме"></textarea><br>
+               </div>
+                 <button class="btn6" type="submit">ОТПРАВИТЬ</button>
+               </form>
+         </body
+         </html>

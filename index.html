@@ -24,7 +24,7 @@
       <a href="#">Клиенты</a>
       </li>
       <li>
-      <a href="#">Магазин</a>
+      <a href="catalog.html">Магазин</a>
       </li>
       <li>
       <a href="#">Контакты</a>
@@ -37,12 +37,15 @@
    </div>
   </header>
 <main class="container">
+  <div class="conteiners">
   <div class="slider">
-                <div class="slider-controls">
-                  <i class="active"></i>
-                   <i></i>
-                   <i></i>
-
+    <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+      <div class="slider-controls">
+        <label for="btn-1"></label>
+          <label for="btn-2"></label>
+           <label for="btn-3"></label>
                 </div>
                 <div class="slides">
                   <div class="slide">
@@ -69,6 +72,7 @@
             </div>
            </div>
           </div>
+        </div>
       <section class="features clearfix">
   <div class="features-item">
   <img src="img/illustration-1.jpg" width="298" height="142" alt="web"><br>
@@ -96,13 +100,13 @@
       <br>
     <h3> ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h3>
       <ul>
-      <li>
+      <li class="enumeration">
       Веб-сайтов любой сложности
      </li>
-      <li>
+      <li class="enumeration">
       Мобильных приложений для iOS и Android
       </li>
-      <li>
+      <li class="enumeration">
       Слайдшоу и видео для корпоративных презентаций
       </li>
       </ul>
@@ -158,11 +162,11 @@
 </main>
 <footer class="main-footer">
   <div class="footer-map">
-  <div class="container">
+  <div class="container clearfix">
     <section class="footer-contacts">
-     <p class="footer-contacts"> NERDS DESING STUDIO</p><br>
-      191186,Санкт-Петербург,<br> ул.Б.Конюшенная,д.19/8<br>
-      тел.+7 (812) 275-75-75<br>
+     <b> NERDS DESING STUDIO</b><br>
+      <p>191186,Санкт-Петербург,<br> ул.Б.Конюшенная,д.19/8<br>
+      тел.+7 (812) 275-75-75<br></p>
       <a class="btn4" href="#">НАПИШИТЕ НАМ</a>
     </section>
   </div>
@@ -183,13 +187,19 @@
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
       <h2 class="modal-content-title">Напишите нам</h2>
       <form class="write-form" action="#" method="post">
+        <div class="name">
         <p class='modal-content-title'>Ваше имя:</p>
         <input class="name" type="text" name="name" placeholder="Представьтесь,пожалуйста">
+      </div>
+        <div class="email">
         <p class='modal-content-title'>Ваше e-mail:</p>
         <input class="email" type="text"  name="email" placeholder="Для отправки ответа">
+      </div>
+        <div class="comment">
         <p class='modal-content-title'>Текст письма:</p>
         <textarea class="comment" type="comment" name="comment" placeholder="В свободной форме"></textarea><br>
-        <button class="btn" type="submit">Войти</button>
+      </div>
+        <button class="btn6" type="submit">ОТПРАВИТЬ</button>
       </form>
 </body
 </html>
